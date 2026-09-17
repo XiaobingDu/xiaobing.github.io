@@ -1,6 +1,5 @@
 ---
-title: "An Efficient LSTM Network for Emotion Recognition From Multichannel EEG Signals.<img width="432" height="23" alt="image" src="https://github.com/user-attachments/assets/eaa94374-2647-400b-b382-38cb838eac4f" />
-"
+title: "An Efficient LSTM Network for Emotion Recognition From Multichannel EEG Signals.<img width="432" height="23" alt="image" src="https://github.com/user-attachments/assets/eaa94374-2647-400b-b382-38cb838eac4f" />"
 collection: publications
 category: manuscripts
 permalink: https://ieeexplore.ieee.org/document/9154557
