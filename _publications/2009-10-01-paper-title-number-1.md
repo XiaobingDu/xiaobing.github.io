@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 1"
+title: "An Efficient LSTM Network for Emotion Recognition From Multichannel EEG Signals.<img width="432" height="23" alt="image" src="https://github.com/user-attachments/assets/eaa94374-2647-400b-b382-38cb838eac4f" />
+"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: https://ieeexplore.ieee.org/document/9154557
+date: 01 July-Sept. 2022
+venue: 'IEEE Transactions on Affective Computing'
+paperurl: 'https://yongjinliu.github.io/files/2020-IEEE-Transactions-on-Affective-Computing.pdf'
+citation: 'X. Du et al., "An Efficient LSTM Network for Emotion Recognition From Multichannel EEG Signals," in IEEE Transactions on Affective Computing, vol. 13, no. 3, pp. 1528-1540, 1 July-Sept. 2022'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Abstract—Most previous EEG-based emotion recognition methods studied hand-crafted EEG features extracted from different electrodes. In this paper, we study the relation among different EEG electrodes and propose a deep learning method to automatically
+extract the spatial features that characterize the functional relation between EEG signals at different electrodes. Our proposed deep model is called ATtention-based LSTM with Domain Discriminator (ATDD-LSTM), a model based on Long Short-Term Memory (LSTM)
+for emotion recognition that can characterize nonlinear relations among EEG signals of different electrodes. To achieve state-of-the-art emotion recognition performance, the architecture of ATDD-LSTM has two distinguishing characteristics: (1) By applying the attention mechanism to the feature vectors produced by LSTM, ATDD-LSTM automatically selects suitable EEG channels for emotion
+recognition, which makes the learned model concentrate on the emotion related channels in response to a given emotion; (2) To
+minimize the significant feature distribution shift between different sessions and/or subjects, ATDD-LSTM uses a domain discriminator to modify the data representation space and generate domain-invariant features. We evaluate the proposed ATDD-LSTM model on three public EEG emotional databases (DEAP, SEED and CMEED) for emotion recognition. The experimental results demonstrate that our ATDD-LSTM model achieves superior performance on subject-dependent (for the same subject), subject-independent (for different subjects) and cross-session (for the same subject) evaluation.
